@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*grids adrea*/
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .menu-lateral { grid-area: 1 / 1 / 4 / 2; }
+    .menu-principal { grid-area: 1 / 2 / 2 / 6; }
+    .menu-secundario { grid-area: 2 / 2 / 3 / 6; }
+    .control-musica { grid-area: 3 / 2 / 4 / 6; }
+/*FIN GRID AREA*/
+
+
+/*ESTILOS GENERALES*/
+body{
+    overflow-x: hidden;
+    width: 100%;
+    background-color: black;
+}
+
+.contenedor{
+    display: grid;
+    display: none; 
+}
+
+.menu-lateral{
+    display: grid;
+    width: 20%;  
+    height: 100%; 
+    padding-top: 40px;
+    background-color: dimgray;
+    position:fixed
+}
+
+.menu-principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-left: 20%;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.menu-secundario{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-left: 20%;
+    padding-right: 20px;
+    padding-top: 15px
+}
+
+.contenido-menuPrincipal{
+    padding-left: 20px;
+    display: grid;
+    float: left;
+}
+
+.imagenListas{
+    width: 100%;
+    display: flex;
+    float: left;
+}
+
+.imagenListasUsuario{
+    height: 138.62px;
+    width: 138.62px;
+    display: grid;
+    margin: auto;
+    padding: auto;
+}
+
+
+.contenedor-login{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.titulo{
+    color: white;
+    display: inline-block;
+    padding-left: 22%;
+    padding-top: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.titulo-plyList{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.parrafo-playList{
+    color: white;
+    font-size: 14px;
+}
+
+.parrafo-cuenta{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.login{
+    background-color: darkgreen;
+    display: grid;
+    margin: 7%;
+    padding: 10%;
+}
+
+.formulario{
+    margin-left: 30%;
+}
+
+.enlace-menu{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.enlace-menu:hover{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-lateral{
+    background-color: dimgray;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.etiqueta{
+    color: white;
+    padding-left: 22%;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.inputBuscar{
+    border-radius: 10px;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+
+.inputCambiaNombre{
+    border-radius: 10px;
+    background-color: beige;
+    margin-bottom: 20px;
+    margin-left: 4%;
+}
+
+.fondoFile{
+    background-color: beige;
+}
+
+#busqueda{
+    padding-bottom: 80px;
+}
+
+.resultadoLi{
+    padding-left: 20%;
+    color: white;
+    font-size: 24px;
+}
+
+.botonReproducir{
+    margin-left: 20px;
+    font-size: 14px;
+    width: 100px;
+    background-color: darkgreen;
+    color: white;
+}
+
+.botonPausar{
+    margin-left: 20px;
+    font-size: 14px;
+    width: 100px;
+    background-color: cadetblue;
+    color: white;
+}
+
+
+.botonEliminar{
+    margin-left: 20px;
+    font-size: 14px;
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+
+.botonAgregar{
+    margin-left: 20px;
+    font-size: 14px;
+    width: 160px;
+    background-color: blue;
+    color: white; 
+}
+
+
+.btnBuscar{
+    margin-left: 20px;
+    font-size: 14px;
+    width: 100px;
+    background-color: darkgreen; 
+    color: white;
+    margin-bottom: 20px;
+}
+
+.btnAgrega{
+    margin-left: 40%;
+    font-size: 14px;
+    width: 200px;
+    height: 40px;
+    background-color: darkgreen; 
+    margin-top: 20px;
+    color: white;
+}
+
+.agregaLista{
+    padding-left: 22%;
+}
+
+button#playpausebtn{
+	background:url("../assets/play.png") no-repeat;
+	width:30px;
+    height: 30px;
+}
+
+
+button#pauseBoton{
+	background:url("../assets/pause.png") no-repeat;
+	width:30px;
+    margin-left: 10px;
+}
+
+.borraPlayList{
+    float: left;
+    display: flex;
+    padding-top: 100%;
+    padding-left: 40px;
+}
+
+.editarPlayList{
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 50PX;
+}
+
+.flexible{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.detallePlayList{
+    color: red;
+    display: inline;
+    padding-top: 20px;
+    padding-left: 30%;
+    float: left;
+}
+
+.divPrincipal{
+    padding-left: 20px;
+    display: flex;
+    float: left;
+}
+
+.divDetallePlayList{
+    display: grid;
+    grid-template-rows: 1fr;
+
+}
+
+.tablaListado{
+    margin-top: 30px;
+    margin-left: 2%;
+    color: white;
+    width: 900px;
+}
+
+
+
+.imgDetalleLista{
+    padding-right: 15px;
+}
+
+
+
+
+
+

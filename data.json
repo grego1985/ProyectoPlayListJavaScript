@@ -1,0 +1,19 @@
+
+[
+  { "id": 0, "nombre": "Ella usó mi cabeza como un revolver", "genero": "Rock Nacional", "artista": "Soda Stereo", "url": "audios/Ella Usó Mi Cabeza Como Un Revólver.mp3"},
+  { "id": 1, "nombre": "Para qué?", "genero": "Rock Nacional", "artista": "Las pelotas", "url": "audios/PARA QUE.mp3"},
+  { "id": 2, "nombre": "Funky", "genero": "Rock Nacional", "artista": "Charly Garcia", "url": "audios/Funky.mp3"},
+  { "id": 3, "nombre": "Donde esconder tantas manos", "genero": "Rock Nacional", "artista": "Las pastillas del abuelo", "url": "audios/DONDE ESCONDER TANTAS MANOS_.mp3"},
+  { "id": 4, "nombre": "Toxi Taxi", "genero": "Rock Nacional", "artista": "Patricio Rey y sus REdonditos de Ricota", "url": "audios/Toxi - Taxi.mp3"},
+  { "id": 5, "nombre": "Ritmo Merembe", "genero": "Cuarteto", "artista": "Banda XXI", "url": "audios/Ritmo_Merembe.mp3"},
+  { "id": 6, "nombre": "Visita Fantasma", "genero": "Cuarteto", "artista": "La Mona Jimenez", "url": "audios/vsita fantasma.mp3"},
+  { "id": 7, "nombre": "Solo Contigo", "genero": "Cuarteto", "artista": "La Mona Jimenez", "url": "audios/solo contigo.mp3"},
+  { "id": 8, "nombre": "Highway To Hell", "genero": "Rock Internacional", "artista": "AC / DC", "url": "audios/Highway To Hell.mp3"},
+  { "id": 9, "nombre": "Hells Bells", "genero": "Rock Internacional", "artista": "AC / DC", "url": "audios/Hells Bells.mp3"},
+  { "id": 10, "nombre": "Tengo tu Amor", "genero": "Cuarteto", "artista": "La Mona Jimenez", "url": "audios/tengo tu amor.mp3"},
+  { "id": 11, "nombre": "paloma loca", "genero": "Cuarteto", "artista": "La Mona Jimenez", "url": "audios/paloma loca.mp3"},
+  { "id": 12, "nombre": "ruleta rusa", "genero": "Cuarteto", "artista": "La Mona Jimenez", "url": "audios/ruleta rusa.mp3"},
+  { "id": 13, "nombre": "laura", "genero": "Cuarteto", "artista": "La Mona Jimenez", "url": "audios/laura.mp3" },
+  { "id": 14, "nombre": "lluvia", "genero": "Cuarteto", "artista": "La Mona Jimenez", "url": "audios/lluvia.mp3"}
+]
+
